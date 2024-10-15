@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cozy Small Pet Bed",
+    "company": "Modenza",
+    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+    "featured": true,
+    "image": "https://honey-paws-theme.myshopify.com/cdn/shop/files/catbed1a_652fb4d2-f960-47d0-af4d-47da321c5c18.jpg?v=1705629656&width=533",
+    "price": 100,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Floofy Cat Bed",
+    "company": "Luxora",
+    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+    "featured": true,
+    "image": "https://honey-paws-theme.myshopify.com/cdn/shop/files/floofcatbed1.jpg?v=1705621796&width=533",
+    "price": 200,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Litter Box Enclosure",
+    "company": "Homestead",
+    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+    "featured": true,
+    "image": "https://honey-paws-theme.myshopify.com/cdn/shop/files/litter5_b81cd85a-c4ab-4512-a369-6718f33c8a73.jpg?v=1705629586&width=533",
+    "price": 300,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Interactive Cat Toy",
+    "company": "Comfora",
+    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+    "featured": false,
+    "image": "https://honey-paws-theme.myshopify.com/cdn/shop/files/cattoy.jpg?v=1705625902&width=533",
+    "price": 400,
+    "clerkId": "clerkId"
+  }
+]
