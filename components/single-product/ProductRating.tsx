@@ -5,6 +5,8 @@ function ProductRating({ productId }: { productId: string }) {
   const rating = 4.2;
   const count = 25;
 
+  console.log(productId);
+
   const className = `flex gap-1 items-center text-md mt-1 mb-4`;
   const countValue = `(${count}) reviews`;
   return (
