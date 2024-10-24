@@ -27,7 +27,8 @@ async function SingleProduct({ params }: { params: { id: string } }) {
         <div>
           <div className="flex gap-x-8 items-center">
             <h1 className="capitalize text-3xl font-bold">{name}</h1>
-            <FavoriteToggleButton productId={params.id} />
+            {/* <FavoriteToggleButton productId={params.id} /> */}
+            <FavoriteToggleButton />
           </div>
           {/* <ProductRating productId={params.id} /> */}
           <ProductRating />
