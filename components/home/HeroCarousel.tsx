@@ -16,26 +16,27 @@ const carouselImages = [hero1, hero2, hero3, hero4];
 
 const HeroCarousel = () => {
   return (
-    <Carousel>
+    <Carousel
+      opts={{
+        align: "start",
+        loop: true,
+      }}
+    >
       <CarouselContent>
         {carouselImages.map((image, index) => {
           return (
             <CarouselItem key={index}>
-              <Card>
-                <CardContent className="p-2">
-                  <Image
-                    src={image}
-                    alt="hero"
-                    className="w-full h-[24rem] rounded-md object-cover"
-                  />
-                </CardContent>
-              </Card>
+              <Image
+                src={image}
+                alt="hero"
+                className="w-full h-[24rem] rounded-md object-cover"
+              />
             </CarouselItem>
           );
         })}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="absolute top-1/2 left-4 z-10 -translate-y-1/2 bg-white/50 hover:bg-white/75 text-gray-800 p-2 rounded-full" />
+      <CarouselNext className="absolute top-1/2 right-4 z-10 -translate-y-1/2 bg-white/50 hover:bg-white/75 text-gray-800 p-2 rounded-full" />
     </Carousel>
   );
 };
