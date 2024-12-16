@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+
 import FormContainer from "../form/FormContainer";
 import { SubmitButton } from "../form/Buttons";
 import { addToCartAction } from "@/utils/actions";
@@ -15,14 +15,13 @@ function AddToCartFromProducts({
   productId: string;
   price: number;
 }) {
-  const [amount, setAmount] = useState(1);
   const { userId } = useAuth();
   return (
     <div>
       {userId ? (
         <FormContainer action={addToCartAction}>
           <input type="hidden" name="productId" value={productId} />
-          <input type="hidden" name="amount" value={amount} />
+          <input type="hidden" name="amount" value={1} />
           <div className="relative w-full rounded-full border-2 border-gray-400 shadow-none hover:border-gray-900 hover:bg-transparent transition-all duration-300 group ">
             <SubmitButton
               text={`add to cart - ${formatCurrency(price)}`}
