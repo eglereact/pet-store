@@ -67,3 +67,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .footer-icons {
+  @apply cursor-pointer hover:text-gray-300 hover:scale-110 transition-all duration-100
+  }
+
+   .footer-links {
+  @apply underline cursor-pointer hover:text-gray-300
+  }
+}

@@ -5,7 +5,7 @@ import Logo from "../navbar/Logo";
 
 function Footer() {
   return (
-    <div className="bg-gray-900 text-white flex flex-col items-center w-full">
+    <div className="bg-neutral-900 text-white flex flex-col items-center w-full">
       <div className="max-w-7xl w-full flex justify-center p-16 sm:px-10 lg:px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="w-full">
@@ -15,24 +15,24 @@ function Footer() {
               illum tempora quos id.
             </p>
             <ul className="flex gap-4 text-2xl">
-              <li className="cursor-pointer hover:text-gray-300 hover:scale-110 transition-all duration-100"><a href="#"><FaFacebookF /></a></li>
-              <li className="cursor-pointer hover:text-gray-300 hover:scale-110 transition-all duration-100"><a href="#"><FaInstagram /></a></li>
-              <li className="cursor-pointer hover:text-gray-300 hover:scale-110 transition-all duration-100"><a href="#"><FaPinterestP /></a></li>
+              <li className="footer-icons"><a href="#"><FaFacebookF /></a></li>
+              <li className="footer-icons"><a href="#"><FaInstagram /></a></li>
+              <li className="footer-icons"><a href="#"><FaPinterestP /></a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">QUICK LINKS</h3>
             <ul>
-              <li className="underline cursor-pointer hover:text-gray-300"><a href="#">Sets & Bundles</a></li>
-              <li className="underline cursor-pointer hover:text-gray-300"><a href="#">Build Your Set</a></li>
-              <li className="underline cursor-pointer hover:text-gray-300"><a href="#">All products</a></li>
-              <li className="underline cursor-pointer hover:text-gray-300"><a href="#">Lookbook</a></li>
-              <li className="underline cursor-pointer hover:text-gray-300"><a href="#">Contact</a></li>
+              <li className="footer-links"><a href="#">Sets & Bundles</a></li>
+              <li className="footer-links"><a href="#">Build Your Set</a></li>
+              <li className="footer-links"><a href="#">All products</a></li>
+              <li className="footer-links"><a href="#">Lookbook</a></li>
+              <li className="footer-links"><a href="#">Contact</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">CONTACT INFO</h3>
-            <p>Streen Name, City, Lithuania</p>
+            <p>Street Name, City, Lithuania</p>
             <p className="underline cursor-pointer hover:text-gray-300">mail@example.com</p>
             <p>(123) 456-7890</p>
           </div>
