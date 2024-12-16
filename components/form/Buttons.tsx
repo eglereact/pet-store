@@ -111,7 +111,7 @@ export const ProductSignInButton = ({ text }: { text: string }) => {
     <SignInButton mode="modal">
       <Button
         type="button"
-        className="mt-4 capitalize w-full bg-transparent text-gray-900 rounded-full"
+        className="capitalize w-full bg-transparent text-gray-900 rounded-full hover:bg-transparent shadow-none"
       >
         {text}
       </Button>

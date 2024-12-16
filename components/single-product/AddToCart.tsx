@@ -25,7 +25,9 @@ function AddToCart({ productId }: { productId: string }) {
           <SubmitButton text="add to cart" className="mt-8" />
         </FormContainer>
       ) : (
-        <ProductSignInButton text="sign in" />
+        <div className="w-full rounded-full border-2 border-gray-400 mt-6 hover:border-gray-900 transition-all duration-300">
+          <ProductSignInButton text="sign in" />
+        </div>
       )}
     </div>
   );
